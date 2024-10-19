@@ -11,6 +11,16 @@ O objetivo principal do **Axiom v0.01** é classificar corretamente frases em di
 - **Ruídos nas Classificações**: Correções de erros onde palavras auxiliares são classificadas incorretamente (por exemplo, a palavra "o" sendo rotulada como parte da classe "Entidade").
 - **Aprimoramento do Dataset Incremental**: Adição de mais dados limpos e exemplos variados para treinar o modelo, melhorando sua capacidade de generalização.
 - **Ajuste de Precisão**: Melhorar o equilíbrio entre precisão, recall e F1-Score nas classes que estão apresentando baixo desempenho.
+ 
+ ## Arquivos de funcionamento
+
+1. **treino.cls.py**: Esse script é o principal responsável por executar o treinamento completo do modelo Axiom. Ele utiliza os dados fornecidos no arquivo **dataset_treino.json** para treinar o modelo do zero ou refinar um modelo pré-existente. Ideal para criar uma base sólida de aprendizado para o modelo.
+
+2. **treino_incremental.py**: Esse código implementa o conceito de fine-tuning, ou seja, ajustes incrementais no modelo já treinado. Ele permite que o modelo seja melhorado com novos dados sem perder as informações previamente adquiridas e bem balanceadas. Ótimo para ajustar classificações ou integrar novos exemplos sem precisar recomeçar todo o treinamento.
+
+3. **inferencia de cls.py**: Responsável pela inferência do modelo, este script utiliza o modelo treinado para classificar as sentenças inseridas em **"test_sentences=[]"** As classificações geradas serão salvas no arquivo **"classificacoes.json"** Esse código é ideal para testar e aplicar o modelo em novos dados após o treinamento.
+
+4. **verificacao_de_precisao.py**: Script dedicado a verificar a precisão das classificações geradas pelo modelo. Ele compara as classificações no arquivo **"classificacoes.json"** com os dados de referência, como o **"dataset_incremental.json"**. Esse processo permite uma avaliação da performance do modelo, ajudando a identificar áreas que precisam de ajuste ou aprimoramento.
 
 ## Classes Utilizadas no Modelo
 
