@@ -1,7 +1,5 @@
-# Security Policy
+# Aviso de Segurança
 
-## Reporting a Vulnerability
+**Atenção**: O Axiom está atualmente na versão **v0.01 (Alpha_phase 1/2)** e está em fase de testes iniciais. Como este é um projeto em fase **Alpha**, ele pode conter bugs ou falhas que ainda estão sendo corrigidas.
 
-If you discover any security vulnerabilities in the Axiom project, please report them directly to Lucas Puttini Mendonça at lputtini113@outlook.com
-
-Do not create public issues for security vulnerabilities, as this may expose the project to potential risks.
+Recomendamos não usar este projeto em ambientes de produção até que ele atinja uma versão estável.
