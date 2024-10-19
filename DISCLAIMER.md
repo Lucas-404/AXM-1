@@ -1,5 +1,5 @@
-# Disclaimer
+# Aviso Legal
 
-The Axiom project is provided as-is, without any guarantees or warranties. The author, Lucas Puttini Mendonça, is not responsible for any misuse or consequences resulting from unauthorized use of this project.
+O projeto Axiom é fornecido no estado em que se encontra, sem quaisquer garantias ou responsabilidades. O autor, Lucas Puttini Mendonça, não se responsabiliza por qualquer uso indevido ou pelas consequências resultantes da utilização não autorizada deste projeto.
 
-The source code, models, and documentation are proprietary and should not be used or distributed without explicit permission.
+O código-fonte, modelos e documentação são de propriedade exclusiva e não devem ser utilizados ou distribuídos sem permissão explícita.
