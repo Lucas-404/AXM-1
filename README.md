@@ -24,12 +24,3 @@ O Axiom está atualmente em sua fase alpha (v0.1), o que significa que o projeto
 
 Este projeto está em fase de testes internos e não está disponível para uso externo ou distribuição pública. Todas as melhorias e novos testes são conduzidos por Lucas Puttini Mendonça.
 
-
-
-## Próximos Passos (Fase Beta)
-
-Na próxima fase **beta**, o Axiom terá:
-- Mais estabilidade nas classificações de todas as classes.
-- Maior precisão em áreas como `Site`, `Valor`, e `Função`.
-- Melhor documentação e exemplos de uso.
-- A possibilidade de integração com novas fontes de dados.
