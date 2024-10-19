@@ -1,7 +1,7 @@
-# Code of Conduct
+Código de Conduta
 
-Axiom is a closed-source project. While the code is not open for public contributions, all interactions within the GitHub repository should be respectful and professional.
+O Axiom é um projeto de código fechado. Embora o código não esteja aberto para contribuições públicas, todas as interações dentro do repositório no GitHub devem ser respeitosas e profissionais.
 
-Disrespectful comments or spam will be removed, and repeat offenders will be blocked from interacting with the repository.
+Comentários desrespeitosos ou spam serão removidos, e infratores reincidentes serão bloqueados de interagir com o repositório.
 
-For any discussions or inquiries, contact Lucas Puttini Mendonça directly.
+Para qualquer discussão ou questionamento, entre em contato diretamente com Lucas Puttini Mendonça.
