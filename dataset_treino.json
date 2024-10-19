@@ -1,0 +1,4373 @@
+[
+    {
+        "Frase": "Abra o navegador e pesquise por receitas de bolo",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "por"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": "receitas",
+            "Site": "bolo",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um email para João sobre o relatório final",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "para",
+                "sobre",
+                "o"
+            ],
+            "Funcao": "email",
+            "Entidade": "João",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "final"
+        }
+    },
+    {
+        "Frase": "Abra o site da Amazon e compre um livro",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "da",
+                "e",
+                "um"
+            ],
+            "Funcao": "compre",
+            "Entidade": "livro",
+            "Site": "Amazon",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque uma reunião para amanhã com a equipe",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "para",
+                "com",
+                "a"
+            ],
+            "Funcao": "reunião",
+            "Entidade": "equipe",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Calcule o total de vendas deste mês",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "total",
+            "Entidade": "vendas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "deste mês"
+        }
+    },
+    {
+        "Frase": "Reinicie o servidor principal",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o"
+            ],
+            "Sistema": "servidor",
+            "Entidade": "principal",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise por ofertas de emprego no site Indeed",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "de",
+                "no"
+            ],
+            "Entidade": "ofertas de emprego",
+            "Site": "Indeed",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie uma mensagem de confirmação para Maria",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "uma",
+                "de",
+                "para"
+            ],
+            "Funcao": "mensagem",
+            "Entidade": "Maria",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Baixe o relatório de desempenho anual",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "desempenho",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "anual"
+        }
+    },
+    {
+        "Frase": "Abra o site do Google e procure imagens de carros",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "do",
+                "e"
+            ],
+            "Funcao": "procure",
+            "Entidade": "imagens",
+            "Site": "Google",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o volume para 50%",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "volume",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null,
+            "valor": "50%"
+        }
+    },
+    {
+        "Frase": "Envie uma proposta para o cliente até amanhã",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "uma",
+                "para",
+                "o"
+            ],
+            "Funcao": "proposta",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Pesquise por hotéis disponíveis para o fim de semana",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "para",
+                "o"
+            ],
+            "Funcao": "hotéis",
+            "Entidade": "disponíveis",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "fim de semana"
+        }
+    },
+    {
+        "Frase": "Baixe o aplicativo do banco e verifique o saldo",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "do",
+                "e"
+            ],
+            "Funcao": "verifique",
+            "Entidade": "saldo",
+            "Site": "banco",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reinicie o computador agora",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o"
+            ],
+            "Funcao": "computador",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "agora"
+        }
+    },
+    {
+        "Frase": "Abra o Google Chrome e pesquise por notícias",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "por"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": "notícias",
+            "Site": "Google",
+            "Navegador": "Google Chrome",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o total de despesas deste mês",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "total",
+            "Entidade": "despesas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "deste mês"
+        }
+    },
+    {
+        "Frase": "Envie uma mensagem de boas-vindas para Pedro",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "uma",
+                "de",
+                "para"
+            ],
+            "Funcao": "mensagem",
+            "Entidade": "Pedro",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque uma consulta com o médico para sexta-feira",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "com",
+                "o",
+                "para"
+            ],
+            "Funcao": "consulta",
+            "Entidade": "médico",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira"
+        }
+    },
+    {
+        "Frase": "Ajuste a resolução da tela para 1920x1080",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "a",
+                "da",
+                "para"
+            ],
+            "Entidade": [
+                "resolução",
+                "tela",
+                "1920x1080"
+            ],
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o relatório mensal para o chefe",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "o"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "chefe",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mensal"
+        }
+    },
+    {
+        "Frase": "Pesquise por imagens de carros esportivos no Google",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "de",
+                "no"
+            ],
+            "Funcao": "imagens",
+            "Entidade": "carros esportivos",
+            "Site": "Google",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque um compromisso para o final de semana",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "um",
+                "para",
+                "o"
+            ],
+            "Funcao": "compromisso",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "final de semana"
+        }
+    },
+    {
+        "Frase": "Abra o site do Facebook e poste uma foto",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "do",
+                "e",
+                "uma"
+            ],
+            "Funcao": "poste",
+            "Entidade": "foto",
+            "Site": "Facebook",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reinicie o sistema operacional agora",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o"
+            ],
+            "Funcao": "sistema operacional",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "agora"
+        }
+    },
+    {
+        "Frase": "Pesquise por notícias sobre economia no site do G1",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "sobre",
+                "no",
+                "do"
+            ],
+            "Funcao": "notícias",
+            "Entidade": "economia",
+            "Site": "G1",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o convite para a festa de sexta-feira",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "a",
+                "de"
+            ],
+            "Funcao": "convite",
+            "Entidade": "festa",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira"
+        }
+    },
+    {
+        "Frase": "Baixe o vídeo mais recente no YouTube",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "no"
+            ],
+            "Funcao": "vídeo",
+            "Entidade": "mais recente",
+            "Site": "YouTube",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste a configuração da impressora para o modo rascunho",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "a",
+                "da",
+                "para",
+                "o"
+            ],
+            "Funcao": "configuração",
+            "Entidade": [
+                "impressora",
+                "modo rascunho"
+            ],
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque uma videoconferência com o time às 10 horas",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "com",
+                "o"
+            ],
+            "Funcao": "videoconferência",
+            "Entidade": "time",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "10 horas"
+        }
+    },
+    {
+        "Frase": "Reinicie o aplicativo de reuniões",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "aplicativo",
+            "Entidade": "reuniões",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise por notícias internacionais no Google News",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "no"
+            ],
+            "Funcao": "notícias",
+            "Entidade": "internacionais",
+            "Site": "Google News",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie a planilha de orçamento para o cliente",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "de",
+                "para",
+                "o"
+            ],
+            "Funcao": "planilha",
+            "Entidade": "orçamento",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Baixe o relatório de despesas de março",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "despesas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "março"
+        }
+    },
+    {
+        "Frase": "Pesquise no YouTube por tutoriais de programação",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "por",
+                "de"
+            ],
+            "Funcao": "tutoriais",
+            "Entidade": "programação",
+            "Site": "YouTube",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o cronômetro para 15 minutos",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "cronômetro",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "15 minutos"
+        }
+    },
+    {
+        "Frase": "Reinicie o modem para corrigir a conexão",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "modem",
+            "Entidade": "conexão",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque uma consulta com o dentista para segunda-feira",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "com",
+                "o",
+                "para"
+            ],
+            "Funcao": "consulta",
+            "Entidade": "dentista",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "segunda-feira"
+        }
+    },
+    {
+        "Frase": "Envie a proposta final para o cliente hoje",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "para",
+                "o"
+            ],
+            "Funcao": "proposta",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "hoje"
+        }
+    },
+    {
+        "Frase": "Baixe o contrato de aluguel para análise",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de",
+                "para"
+            ],
+            "Funcao": "contrato",
+            "Entidade": "aluguel",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um email para confirmar a reunião",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "para",
+                "a"
+            ],
+            "Funcao": "confirmar",
+            "Entidade": "reunião",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o site do banco e verifique o saldo",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "verifique",
+            "Entidade": "saldo",
+            "Site": "banco",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Agende uma consulta médica para semana que vem",
+        "Rótulos": {
+            "Comando": "Agende",
+            "Outro": [
+                "uma",
+                "para",
+                "que"
+            ],
+            "Funcao": "consulta",
+            "Entidade": "médica",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "semana que vem"
+        }
+    },
+    {
+        "Frase": "Busque uma receita de bolo de chocolate",
+        "Rótulos": {
+            "Comando": "Busque",
+            "Outro": [
+                "uma",
+                "de",
+                "de"
+            ],
+            "Funcao": "receita",
+            "Entidade": "bolo de chocolate",
+            "Site": null,
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise os melhores restaurantes na cidade",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "os",
+                "na"
+            ],
+            "Funcao": "restaurantes",
+            "Entidade": "cidade",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o valor total das compras do mês passado",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "das",
+                "do"
+            ],
+            "Funcao": "valor total",
+            "Entidade": "compras",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mês passado"
+        }
+    },
+    {
+        "Frase": "Envie um convite para o evento na sexta-feira",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "para",
+                "o",
+                "na"
+            ],
+            "Funcao": "convite",
+            "Entidade": "evento",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira"
+        }
+    },
+    {
+        "Frase": "Abra o navegador e pesquise sobre inteligência artificial",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": "inteligência artificial",
+            "Site": null,
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque a reunião para segunda-feira às 10h",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "a",
+                "para",
+                "às"
+            ],
+            "Funcao": "reunião",
+            "Entidade": "segunda-feira",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "10h"
+        }
+    },
+    {
+        "Frase": "Baixe o relatório de desempenho anual",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "desempenho",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "anual"
+        }
+    },
+    {
+        "Frase": "Envie a proposta de orçamento por email",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "de",
+                "por"
+            ],
+            "Funcao": "proposta",
+            "Entidade": "orçamento",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise as ofertas de eletrônicos na internet",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "as",
+                "de",
+                "na"
+            ],
+            "Funcao": "ofertas",
+            "Entidade": "eletrônicos",
+            "Site": "internet",
+            "Navegador": "site",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule a distância entre as cidades",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "a",
+                "entre",
+                "as"
+            ],
+            "Funcao": "distância",
+            "Entidade": "cidades",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque o dentista para a próxima segunda-feira",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "o",
+                "para",
+                "a"
+            ],
+            "Funcao": "dentista",
+            "Entidade": "segunda-feira",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "próxima"
+        }
+    },
+    {
+        "Frase": "Reinicie o servidor do sistema principal",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "servidor",
+            "Entidade": "sistema",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise no site da empresa por vagas abertas",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "da",
+                "por"
+            ],
+            "Funcao": "vagas",
+            "Entidade": "empresa",
+            "Site": "site",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um lembrete de pagamento para o cliente",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "de",
+                "para",
+                "o"
+            ],
+            "Funcao": "lembrete",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise a previsão do tempo para amanhã",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "a",
+                "do",
+                "para"
+            ],
+            "Funcao": "previsão",
+            "Entidade": "tempo",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Marque uma consulta médica para terça-feira",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "para"
+            ],
+            "Funcao": "consulta",
+            "Entidade": "médica",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "terça-feira"
+        }
+    },
+    {
+        "Frase": "Baixe o contrato de aluguel para assinar",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de",
+                "para"
+            ],
+            "Funcao": "contrato",
+            "Entidade": "aluguel",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o Google Chrome e acesse o site da Amazon",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "acesse",
+            "Entidade": "Amazon",
+            "Site": "Amazon",
+            "Navegador": "Google Chrome",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Procure por vídeos no YouTube usando o Firefox",
+        "Rótulos": {
+            "Comando": "Procure",
+            "Outro": [
+                "por",
+                "no",
+                "o"
+            ],
+            "Funcao": "vídeos",
+            "Entidade": null,
+            "Site": "YouTube",
+            "Navegador": "Firefox",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o Safari e pesquise por notícias no site do Google",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "por",
+                "no"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": "notícias",
+            "Site": "Google",
+            "Navegador": "Safari",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site do Facebook usando o Microsoft Edge",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "do",
+                "o"
+            ],
+            "Funcao": "site",
+            "Entidade": "Facebook",
+            "Site": "Facebook",
+            "Navegador": "Microsoft Edge",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise a previsão do tempo no Yahoo utilizando o Opera",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "a",
+                "do",
+                "no",
+                "o"
+            ],
+            "Funcao": "previsão do tempo",
+            "Entidade": "Yahoo",
+            "Site": "Yahoo",
+            "Navegador": "Opera",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o site do Reddit no Google Chrome",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "do",
+                "no"
+            ],
+            "Funcao": "site",
+            "Entidade": null,
+            "Site": "Reddit",
+            "Navegador": "Google Chrome",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e acesse o site da Amazon",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "acesse",
+            "Entidade": null,
+            "Site": "Amazon",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise produtos no site da Amazon usando o Firefox",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "da",
+                "o"
+            ],
+            "Funcao": "produtos",
+            "Entidade": null,
+            "Site": "Amazon",
+            "Navegador": "Firefox",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o Google Chrome e entre no Twitter",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "no"
+            ],
+            "Funcao": "entre",
+            "Entidade": null,
+            "Site": "Twitter",
+            "Navegador": "Google Chrome",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site do LinkedIn utilizando o Safari",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "do",
+                "o"
+            ],
+            "Funcao": "site",
+            "Entidade": null,
+            "Site": "LinkedIn",
+            "Navegador": "Safari",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise por artigos no Medium usando o Microsoft Edge",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "no",
+                "o"
+            ],
+            "Funcao": "artigos",
+            "Entidade": null,
+            "Site": "Medium",
+            "Navegador": "Microsoft Edge",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o Opera e veja o conteúdo do YouTube",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "veja",
+            "Entidade": null,
+            "Site": "YouTube",
+            "Navegador": "Opera",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Entre no site do GitHub e pesquise repositórios",
+        "Rótulos": {
+            "Comando": "Entre",
+            "Outro": [
+                "no",
+                "do",
+                "e"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": null,
+            "Site": "GitHub",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise por notícias no Reddit utilizando o Google Chrome",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "no",
+                "o"
+            ],
+            "Funcao": "notícias",
+            "Entidade": null,
+            "Site": "Reddit",
+            "Navegador": "Google Chrome",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site da Netflix no Safari",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "da",
+                "no"
+            ],
+            "Funcao": "site",
+            "Entidade": null,
+            "Site": "Netflix",
+            "Navegador": "Safari",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o Firefox e veja filmes no Prime Video",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "no"
+            ],
+            "Funcao": "veja",
+            "Entidade": null,
+            "Site": "Prime Video",
+            "Navegador": "Firefox",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site do Twitter e verifique as últimas postagens",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "do",
+                "e"
+            ],
+            "Funcao": "verifique",
+            "Entidade": null,
+            "Site": "Twitter",
+            "Navegador": null,
+            "Tempo": "últimas"
+        }
+    },
+    {
+        "Frase": "Pesquise por ofertas no AliExpress usando o Microsoft Edge",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "no",
+                "o"
+            ],
+            "Funcao": "ofertas",
+            "Entidade": null,
+            "Site": "AliExpress",
+            "Navegador": "Microsoft Edge",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e acesse o site do eBay",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "acesse",
+            "Entidade": null,
+            "Site": "eBay",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Entre no site da Wikipedia e pesquise sobre tecnologia",
+        "Rótulos": {
+            "Comando": "Entre",
+            "Outro": [
+                "no",
+                "da",
+                "e"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": null,
+            "Site": "Wikipedia",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise imagens no Google usando o Opera",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "o"
+            ],
+            "Funcao": "imagens",
+            "Entidade": null,
+            "Site": "Google",
+            "Navegador": "Opera",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o LinkedIn no Firefox e veja as últimas conexões",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "no",
+                "e"
+            ],
+            "Funcao": "veja",
+            "Entidade": null,
+            "Site": "LinkedIn",
+            "Navegador": "Firefox",
+            "Tempo": "últimas"
+        }
+    },
+    {
+        "Frase": "Abra o Google Chrome e pesquise por vagas no Indeed",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "por",
+                "no"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": null,
+            "Site": "Indeed",
+            "Navegador": "Google Chrome",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Entre no site da Amazon e verifique suas últimas compras",
+        "Rótulos": {
+            "Comando": "Entre",
+            "Outro": [
+                "no",
+                "da",
+                "e"
+            ],
+            "Funcao": "verifique",
+            "Entidade": null,
+            "Site": "Amazon",
+            "Navegador": null,
+            "Tempo": "últimas"
+        }
+    },
+    {
+        "Frase": "Pesquise no Pinterest por inspirações de design usando o Safari",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "por",
+                "de",
+                "o"
+            ],
+            "Funcao": "inspirações de design",
+            "Entidade": null,
+            "Site": "Pinterest",
+            "Navegador": "Safari",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o eBay no Opera e confira as ofertas de hoje",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "no",
+                "e",
+                "de"
+            ],
+            "Funcao": "confira",
+            "Entidade": null,
+            "Site": "eBay",
+            "Navegador": "Opera",
+            "Tempo": "hoje"
+        }
+    },
+    {
+        "Frase": "Abra o navegador e acesse o site do YouTube",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "do"
+            ],
+            "Funcao": "acesse",
+            "Entidade": null,
+            "Site": "YouTube",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o Amazon e procure um livro",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "e",
+                "um"
+            ],
+            "Funcao": "procure",
+            "Entidade": "livro",
+            "Site": "Amazon",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o Twitter e veja as últimas notícias",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "as"
+            ],
+            "Funcao": "veja",
+            "Entidade": "notícias",
+            "Site": "Twitter",
+            "Navegador": "navegador",
+            "Tempo": "últimas"
+        }
+    },
+    {
+        "Frase": "Procure por vídeos engraçados no YouTube",
+        "Rótulos": {
+            "Comando": "Procure",
+            "Outro": [
+                "por",
+                "no"
+            ],
+            "Funcao": "vídeos",
+            "Entidade": "engraçados",
+            "Site": "YouTube",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um email para confirmar a reunião na sexta-feira",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "para",
+                "a"
+            ],
+            "Funcao": "email",
+            "Entidade": "reunião",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira"
+        }
+    },
+    {
+        "Frase": "Pesquise por restaurantes italianos no Google Maps",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "no"
+            ],
+            "Funcao": "restaurantes",
+            "Entidade": "italianos",
+            "Site": "Google Maps",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Verifique a previsão do tempo para amanhã",
+        "Rótulos": {
+            "Comando": "Verifique",
+            "Outro": [
+                "a",
+                "do",
+                "para"
+            ],
+            "Funcao": "previsão",
+            "Entidade": "tempo",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Abra o navegador e acesse o site da Amazon",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "acesse",
+            "Entidade": null,
+            "Site": "Amazon",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o relatório mensal para o diretor",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "o"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "diretor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mensal"
+        }
+    },
+    {
+        "Frase": "Ajuste o volume do microfone para 75%",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "do",
+                "para"
+            ],
+            "Funcao": "volume",
+            "Entidade": "microfone",
+            "Site": null,
+            "Navegador": null,
+            "Valor": "75%"
+        }
+    },
+    {
+        "Frase": "Busque por receitas de sobremesa no site AllRecipes",
+        "Rótulos": {
+            "Comando": "Busque",
+            "Outro": [
+                "por",
+                "de",
+                "no"
+            ],
+            "Funcao": "receitas",
+            "Entidade": "sobremesa",
+            "Site": "AllRecipes",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina o alarme para tocar às 6:30 da manhã",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "para",
+                "às",
+                "da"
+            ],
+            "Funcao": "alarme",
+            "Entidade": "manhã",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "6:30"
+        }
+    },
+    {
+        "Frase": "Ajuste o brilho da tela para 80%",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "da",
+                "para"
+            ],
+            "Funcao": "brilho",
+            "Entidade": "tela",
+            "Site": null,
+            "Navegador": null,
+            "Valor": "80%"
+        }
+    },
+    {
+        "Frase": "Envie o relatório de vendas para o chefe amanhã às 14h",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "de",
+                "para",
+                "o"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "chefe",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã",
+            "Valor": "14h"
+        }
+    },
+    {
+        "Frase": "Configure o termostato para 22 graus Celsius",
+        "Rótulos": {
+            "Comando": "Configure",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "termostato",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Valor": "22 graus Celsius"
+        }
+    },
+    {
+        "Frase": "Agende a reunião para a próxima segunda-feira às 9:00",
+        "Rótulos": {
+            "Comando": "Agende",
+            "Outro": [
+                "a",
+                "para",
+                "a"
+            ],
+            "Funcao": "reunião",
+            "Entidade": "segunda-feira",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "9:00"
+        }
+    },
+    {
+        "Frase": "Calcule o total de horas trabalhadas esta semana",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "total",
+            "Entidade": "horas trabalhadas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "esta semana"
+        }
+    },
+    {
+        "Frase": "Verifique o valor total da compra",
+        "Rótulos": {
+            "Comando": "Verifique",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "valor",
+            "Entidade": "compra",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o cronômetro para 10 minutos",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "cronômetro",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Valor": "10 minutos"
+        }
+    },
+    {
+        "Frase": "Envie uma mensagem de texto para João às 18h",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "uma",
+                "de",
+                "para"
+            ],
+            "Funcao": "mensagem",
+            "Entidade": "João",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "18h"
+        }
+    },
+    {
+        "Frase": "Defina a temperatura do ar condicionado para 24 graus",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "a",
+                "do",
+                "para"
+            ],
+            "Funcao": "temperatura",
+            "Entidade": "ar condicionado",
+            "Site": null,
+            "Navegador": null,
+            "Valor": "24 graus"
+        }
+    },
+    {
+        "Frase": "Ajuste o volume para 80%",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "volume",
+            "Entidade": null,
+            "Valor": "80%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o total da compra que deu 120 reais",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "da",
+                "que",
+                "deu"
+            ],
+            "Funcao": "total",
+            "Entidade": "compra",
+            "Valor": "120 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o pagamento de 500 dólares para o cliente",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "de",
+                "para",
+                "o"
+            ],
+            "Funcao": "pagamento",
+            "Entidade": "cliente",
+            "Valor": "500 dólares",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o brilho da tela para 70%",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "da",
+                "para"
+            ],
+            "Funcao": "brilho",
+            "Entidade": "tela",
+            "Valor": "70%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina um limite de 3000 reais no cartão de crédito",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "um",
+                "de",
+                "no"
+            ],
+            "Funcao": "limite",
+            "Entidade": "cartão de crédito",
+            "Valor": "3000 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o relatório anual com uma margem de erro de 5%",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "com",
+                "uma",
+                "de"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "margem de erro",
+            "Valor": "5%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "anual"
+        }
+    },
+    {
+        "Frase": "Calcule os impostos sobre a venda que totalizaram 2000 euros",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "os",
+                "sobre",
+                "a",
+                "que"
+            ],
+            "Funcao": "impostos",
+            "Entidade": "venda",
+            "Valor": "2000 euros",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Aumente o volume do microfone para 90%",
+        "Rótulos": {
+            "Comando": "Aumente",
+            "Outro": [
+                "o",
+                "do",
+                "para"
+            ],
+            "Funcao": "volume",
+            "Entidade": "microfone",
+            "Valor": "90%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reduza o preço da assinatura para 50 reais",
+        "Rótulos": {
+            "Comando": "Reduza",
+            "Outro": [
+                "o",
+                "da",
+                "para"
+            ],
+            "Funcao": "preço",
+            "Entidade": "assinatura",
+            "Valor": "50 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Configure o alarme para tocar em 15 minutos",
+        "Rótulos": {
+            "Comando": "Configure",
+            "Outro": [
+                "o",
+                "para",
+                "em"
+            ],
+            "Funcao": "alarme",
+            "Entidade": null,
+            "Valor": "15 minutos",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o salário para 3000 dólares mensais",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "salário",
+            "Entidade": null,
+            "Valor": "3000 dólares",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mensais"
+        }
+    },
+    {
+        "Frase": "Defina o orçamento de 50000 reais para o projeto",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "de",
+                "para",
+                "o"
+            ],
+            "Funcao": "orçamento",
+            "Entidade": "projeto",
+            "Valor": "50000 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Estime o custo do reparo em 150 euros",
+        "Rótulos": {
+            "Comando": "Estime",
+            "Outro": [
+                "o",
+                "do",
+                "em"
+            ],
+            "Funcao": "custo",
+            "Entidade": "reparo",
+            "Valor": "150 euros",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste a temperatura do ambiente para 22 graus",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "a",
+                "do",
+                "para"
+            ],
+            "Funcao": "temperatura",
+            "Entidade": "ambiente",
+            "Valor": "22 graus",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o valor da fatura que é de 450 reais",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "da",
+                "que",
+                "é",
+                "de"
+            ],
+            "Funcao": "valor",
+            "Entidade": "fatura",
+            "Valor": "450 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reduza o tempo de carregamento para 10 segundos",
+        "Rótulos": {
+            "Comando": "Reduza",
+            "Outro": [
+                "o",
+                "de",
+                "para"
+            ],
+            "Funcao": "tempo de carregamento",
+            "Entidade": null,
+            "Valor": "10 segundos",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Aumente o limite de crédito para 5000 reais",
+        "Rótulos": {
+            "Comando": "Aumente",
+            "Outro": [
+                "o",
+                "de",
+                "para"
+            ],
+            "Funcao": "limite de crédito",
+            "Entidade": null,
+            "Valor": "5000 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o valor da compra com desconto de 15%",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "da",
+                "com",
+                "de"
+            ],
+            "Funcao": "valor",
+            "Entidade": "compra",
+            "Valor": "15%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Verifique a porcentagem de uso do CPU que está em 70%",
+        "Rótulos": {
+            "Comando": "Verifique",
+            "Outro": [
+                "a",
+                "de",
+                "do",
+                "que",
+                "está",
+                "em"
+            ],
+            "Funcao": "porcentagem de uso",
+            "Entidade": "CPU",
+            "Valor": "70%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Configure o preço mínimo para 100 reais",
+        "Rótulos": {
+            "Comando": "Configure",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "preço mínimo",
+            "Entidade": null,
+            "Valor": "100 reais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina o preço em R$150",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "em"
+            ],
+            "Funcao": "preço",
+            "Entidade": null,
+            "Valor": "R$150",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Atualize o orçamento para US$200",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "orçamento",
+            "Entidade": null,
+            "Valor": "US$200",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o pagamento para €100",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "pagamento",
+            "Entidade": null,
+            "Valor": "€100",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Insira o valor de R$75 no sistema",
+        "Rótulos": {
+            "Comando": "Insira",
+            "Outro": [
+                "o",
+                "de",
+                "no"
+            ],
+            "Funcao": "valor",
+            "Entidade": "sistema",
+            "Valor": "R$75",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reduza o preço para US$99",
+        "Rótulos": {
+            "Comando": "Reduza",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "preço",
+            "Entidade": null,
+            "Valor": "US$99",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Coloque o custo em R$250",
+        "Rótulos": {
+            "Comando": "Coloque",
+            "Outro": [
+                "o",
+                "em"
+            ],
+            "Funcao": "custo",
+            "Entidade": null,
+            "Valor": "R$250",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina a mensalidade para €120",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "a",
+                "para"
+            ],
+            "Funcao": "mensalidade",
+            "Entidade": null,
+            "Valor": "€120",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Aumente o limite do cartão para R$500",
+        "Rótulos": {
+            "Comando": "Aumente",
+            "Outro": [
+                "o",
+                "do",
+                "para"
+            ],
+            "Funcao": "limite",
+            "Entidade": "cartão",
+            "Valor": "R$500",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reduza a tarifa para US$20",
+        "Rótulos": {
+            "Comando": "Reduza",
+            "Outro": [
+                "a",
+                "para"
+            ],
+            "Funcao": "tarifa",
+            "Entidade": null,
+            "Valor": "US$20",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Insira o pagamento de €50 no sistema",
+        "Rótulos": {
+            "Comando": "Insira",
+            "Outro": [
+                "o",
+                "de",
+                "no"
+            ],
+            "Funcao": "pagamento",
+            "Entidade": "sistema",
+            "Valor": "€50",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o valor da multa para R$1000",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "da",
+                "para"
+            ],
+            "Funcao": "valor",
+            "Entidade": "multa",
+            "Valor": "R$1000",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o imposto sobre o valor de US$350",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "sobre",
+                "o",
+                "de"
+            ],
+            "Funcao": "imposto",
+            "Entidade": "valor",
+            "Valor": "US$350",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Coloque a entrada em €500 no sistema",
+        "Rótulos": {
+            "Comando": "Coloque",
+            "Outro": [
+                "a",
+                "em",
+                "no"
+            ],
+            "Funcao": "entrada",
+            "Entidade": "sistema",
+            "Valor": "€500",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Adicione o crédito de R$2000 à conta",
+        "Rótulos": {
+            "Comando": "Adicione",
+            "Outro": [
+                "o",
+                "de",
+                "à"
+            ],
+            "Funcao": "crédito",
+            "Entidade": "conta",
+            "Valor": "R$2000",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina o orçamento para €750",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "orçamento",
+            "Entidade": null,
+            "Valor": "€750",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o salário mensal para R$3000",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "salário",
+            "Entidade": "mensal",
+            "Valor": "R$3000",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o total da compra com um desconto de 10%",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "da",
+                "com",
+                "um",
+                "de"
+            ],
+            "Funcao": "total",
+            "Entidade": "compra",
+            "Valor": "10%",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina o preço do carro em US$20000",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "do",
+                "em"
+            ],
+            "Funcao": "preço",
+            "Entidade": "carro",
+            "Valor": "US$20000",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o salário do funcionário para R$3000",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "do",
+                "para"
+            ],
+            "Funcao": "salário",
+            "Entidade": "funcionário",
+            "Valor": "R$3000",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um relatório sobre as vendas de US$500",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "sobre",
+                "as",
+                "de"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "vendas",
+            "Valor": "US$500",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o limite de crédito para R$1000",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "de",
+                "para"
+            ],
+            "Funcao": "limite",
+            "Entidade": "crédito",
+            "Valor": "R$1000",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina o preço do produto em €200",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "do",
+                "em"
+            ],
+            "Funcao": "preço",
+            "Entidade": "produto",
+            "Valor": "€200",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Configure a câmera para modo noturno",
+        "Rótulos": {
+            "Comando": "Configure",
+            "Outro": [
+                "a",
+                "para"
+            ],
+            "Funcao": "modo",
+            "Entidade": "câmera",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie uma foto para o contato principal",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "uma",
+                "para",
+                "o"
+            ],
+            "Funcao": "foto",
+            "Entidade": "contato principal",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste a temperatura do ar condicionado para 20 graus",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "a",
+                "do",
+                "para"
+            ],
+            "Funcao": "temperatura",
+            "Entidade": "ar condicionado",
+            "Valor": "20 graus",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule a quantidade de energia usada por mês",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "a",
+                "de",
+                "por"
+            ],
+            "Funcao": "quantidade",
+            "Entidade": "energia",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mês"
+        }
+    },
+    {
+        "Frase": "Defina o preço do carro elétrico",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "preço",
+            "Entidade": "carro elétrico",
+            "Valor": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise por ofertas de smartphones no site oficial",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "de",
+                "no"
+            ],
+            "Funcao": "ofertas",
+            "Entidade": "smartphones",
+            "Site": "site oficial",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque uma reunião para sexta-feira às 14h",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "para",
+                "às"
+            ],
+            "Funcao": "reunião",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira às 14h"
+        }
+    },
+    {
+        "Frase": "Defina o alarme para tocar às 7h",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "para",
+                "às"
+            ],
+            "Funcao": "alarme",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "7h"
+        }
+    },
+    {
+        "Frase": "Abra o navegador e acesse o YouTube",
+        "Rótulos": {
+            "Comando": [
+                "Abra",
+                "acesse"
+            ],
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "navegador",
+            "Entidade": "YouTube",
+            "Site": "YouTube",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Baixe o relatório financeiro mensal",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "relatório financeiro",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mensal"
+        }
+    },
+    {
+        "Frase": "Inicie o modo de economia de energia",
+        "Rótulos": {
+            "Comando": "Inicie",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "modo",
+            "Entidade": "economia de energia",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise o modelo de smartphone mais recente",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "o",
+                "de"
+            ],
+            "Funcao": "modelo",
+            "Entidade": "smartphone",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Calcule o valor total do pedido",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "valor total",
+            "Entidade": "pedido",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina as configurações do roteador Wi-Fi",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "as",
+                "do"
+            ],
+            "Funcao": "configurações",
+            "Entidade": "roteador Wi-Fi",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Remova os arquivos duplicados do servidor",
+        "Rótulos": {
+            "Comando": "Remova",
+            "Outro": [
+                "os",
+                "do"
+            ],
+            "Funcao": "arquivos duplicados",
+            "Entidade": "servidor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um email para o cliente com os detalhes da proposta",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "para",
+                "com",
+                "os",
+                "da"
+            ],
+            "Funcao": "email",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Apague as mensagens de spam da caixa de entrada",
+        "Rótulos": {
+            "Comando": "Apague",
+            "Outro": [
+                "as",
+                "de",
+                "da"
+            ],
+            "Funcao": "mensagens",
+            "Entidade": "spam",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Desligue o sistema às 23h",
+        "Rótulos": {
+            "Comando": "Desligue",
+            "Outro": [
+                "o"
+            ],
+            "Funcao": "sistema",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "23h"
+        }
+    },
+    {
+        "Frase": "Reinicie o servidor da empresa imediatamente",
+        "Rótulos": {
+            "Comando": "Reinicie",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "servidor",
+            "Entidade": "empresa",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "imediatamente"
+        }
+    },
+    {
+        "Frase": "Pause a reprodução do vídeo",
+        "Rótulos": {
+            "Comando": "Pause",
+            "Outro": [
+                "a",
+                "do"
+            ],
+            "Funcao": "reprodução",
+            "Entidade": "vídeo",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ative o modo silencioso no celular",
+        "Rótulos": {
+            "Comando": "Ative",
+            "Outro": [
+                "o",
+                "no"
+            ],
+            "Funcao": "modo silencioso",
+            "Entidade": "celular",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Desative as notificações de todas as redes sociais",
+        "Rótulos": {
+            "Comando": "Desative",
+            "Outro": [
+                "as",
+                "de",
+                "todas",
+                "as"
+            ],
+            "Funcao": "notificações",
+            "Entidade": "redes sociais",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Atualize o software do sistema operacional",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "software",
+            "Entidade": "sistema operacional",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise sobre os últimos lançamentos de smartphones",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "sobre",
+                "os",
+                "de"
+            ],
+            "Funcao": "lançamentos",
+            "Entidade": "smartphones",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "últimos"
+        }
+    },
+    {
+        "Frase": "Adicione um novo cartão de crédito na conta",
+        "Rótulos": {
+            "Comando": "Adicione",
+            "Outro": [
+                "um",
+                "de",
+                "na"
+            ],
+            "Funcao": "cartão de crédito",
+            "Entidade": "conta",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Limpe o histórico de navegação no navegador",
+        "Rótulos": {
+            "Comando": "Limpe",
+            "Outro": [
+                "o",
+                "de",
+                "no"
+            ],
+            "Funcao": "histórico de navegação",
+            "Entidade": "navegador",
+            "Site": null,
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Mude o idioma do aplicativo para inglês",
+        "Rótulos": {
+            "Comando": "Mude",
+            "Outro": [
+                "o",
+                "do",
+                "para"
+            ],
+            "Funcao": "idioma",
+            "Entidade": "aplicativo",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Configure o sistema para desligar em 10 minutos",
+        "Rótulos": {
+            "Comando": "Configure",
+            "Outro": [
+                "o",
+                "para",
+                "em"
+            ],
+            "Funcao": "sistema",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "10 minutos"
+        }
+    },
+    {
+        "Frase": "Desbloqueie o acesso ao painel de controle",
+        "Rótulos": {
+            "Comando": "Desbloqueie",
+            "Outro": [
+                "o",
+                "ao",
+                "de"
+            ],
+            "Funcao": "acesso",
+            "Entidade": "painel de controle",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Digite a senha do Wi-Fi",
+        "Rótulos": {
+            "Comando": "Digite",
+            "Outro": [
+                "a",
+                "do"
+            ],
+            "Funcao": "senha",
+            "Entidade": "Wi-Fi",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Reproduza a playlist favorita no Spotify",
+        "Rótulos": {
+            "Comando": "Reproduza",
+            "Outro": [
+                "a",
+                "no"
+            ],
+            "Funcao": "playlist",
+            "Entidade": "Spotify",
+            "Site": "Spotify",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Compre o ingresso do show online",
+        "Rótulos": {
+            "Comando": "Compre",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "ingresso",
+            "Entidade": "show",
+            "Site": "online",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Adicione o endereço do cliente à lista",
+        "Rótulos": {
+            "Comando": "Adicione",
+            "Outro": [
+                "o",
+                "do",
+                "à"
+            ],
+            "Funcao": "endereço",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise as lojas de eletrônicos mais próximas",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "as",
+                "de",
+                "mais"
+            ],
+            "Funcao": "lojas",
+            "Entidade": "eletrônicos",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "próximas"
+        }
+    },
+    {
+        "Frase": "Calcule o custo total do projeto de reforma",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "do",
+                "de"
+            ],
+            "Funcao": "custo total",
+            "Entidade": "projeto de reforma",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Desative a conta de usuário temporária",
+        "Rótulos": {
+            "Comando": "Desative",
+            "Outro": [
+                "a",
+                "de"
+            ],
+            "Funcao": "conta",
+            "Entidade": "usuário",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "temporária"
+        }
+    },
+    {
+        "Frase": "Remova o aplicativo do sistema",
+        "Rótulos": {
+            "Comando": "Remova",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "aplicativo",
+            "Entidade": "sistema",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Atualize o calendário do evento para o mês seguinte",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "do",
+                "para",
+                "o"
+            ],
+            "Funcao": "calendário",
+            "Entidade": "evento",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "mês seguinte"
+        }
+    },
+    {
+        "Frase": "Envie uma mensagem para todos os participantes",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "uma",
+                "para",
+                "os"
+            ],
+            "Funcao": "mensagem",
+            "Entidade": "participantes",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Aumente o volume do sistema de som",
+        "Rótulos": {
+            "Comando": "Aumente",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "volume",
+            "Entidade": "sistema de som",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ative o modo avião no celular",
+        "Rótulos": {
+            "Comando": "Ative",
+            "Outro": [
+                "o",
+                "no"
+            ],
+            "Funcao": "modo avião",
+            "Entidade": "celular",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Instale o driver da impressora",
+        "Rótulos": {
+            "Comando": "Instale",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "driver",
+            "Entidade": "impressora",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Insira o número de telefone na agenda",
+        "Rótulos": {
+            "Comando": "Insira",
+            "Outro": [
+                "o",
+                "de",
+                "na"
+            ],
+            "Funcao": "número de telefone",
+            "Entidade": "agenda",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Verifique o saldo da conta bancária",
+        "Rótulos": {
+            "Comando": "Verifique",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "saldo",
+            "Entidade": "conta bancária",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse a página de suporte no site oficial",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "a",
+                "de",
+                "no"
+            ],
+            "Funcao": "página",
+            "Entidade": "suporte",
+            "Site": "site oficial",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Atualize o banco de dados da empresa",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "banco de dados",
+            "Entidade": "empresa",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Desabilite o acesso de convidados na rede",
+        "Rótulos": {
+            "Comando": "Desabilite",
+            "Outro": [
+                "o",
+                "de",
+                "na"
+            ],
+            "Funcao": "acesso",
+            "Entidade": "convidados",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o documento para a impressora",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "a"
+            ],
+            "Funcao": "documento",
+            "Entidade": "impressora",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o brilho da tela",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "brilho",
+            "Entidade": "tela",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Desative o modo noturno do aplicativo",
+        "Rótulos": {
+            "Comando": "Desative",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "modo noturno",
+            "Entidade": "aplicativo",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste o alarme para 7h",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "o",
+                "para"
+            ],
+            "Funcao": "alarme",
+            "Entidade": null,
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "7h"
+        }
+    },
+    {
+        "Frase": "Envie o contrato para o cliente agora",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "o"
+            ],
+            "Funcao": "contrato",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "agora"
+        }
+    },
+    {
+        "Frase": "Calcule o preço total da encomenda",
+        "Rótulos": {
+            "Comando": "Calcule",
+            "Outro": [
+                "o",
+                "da"
+            ],
+            "Funcao": "preço total",
+            "Entidade": "encomenda",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Adicione o endereço de entrega ao pedido",
+        "Rótulos": {
+            "Comando": "Adicione",
+            "Outro": [
+                "o",
+                "de",
+                "ao"
+            ],
+            "Funcao": "endereço de entrega",
+            "Entidade": "pedido",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise os resultados da eleição de 2024",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "os",
+                "da",
+                "de"
+            ],
+            "Funcao": "resultados",
+            "Entidade": "eleição",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "2024"
+        }
+    },
+    {
+        "Frase": "Remova os itens duplicados da lista de compras",
+        "Rótulos": {
+            "Comando": "Remova",
+            "Outro": [
+                "os",
+                "da",
+                "de"
+            ],
+            "Funcao": "itens duplicados",
+            "Entidade": "lista de compras",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Atualize o firmware do roteador Wi-Fi",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "do"
+            ],
+            "Funcao": "firmware",
+            "Entidade": "roteador Wi-Fi",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Defina o orçamento do projeto de renovação",
+        "Rótulos": {
+            "Comando": "Defina",
+            "Outro": [
+                "o",
+                "do",
+                "de"
+            ],
+            "Funcao": "orçamento",
+            "Entidade": "projeto de renovação",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie a proposta para o chefe até sexta-feira",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "para",
+                "o",
+                "até"
+            ],
+            "Funcao": "proposta",
+            "Entidade": "chefe",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira"
+        }
+    },
+    {
+        "Frase": "Abra o navegador e busque imagens de gatos no Google",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "de",
+                "no"
+            ],
+            "Funcao": "busque",
+            "Entidade": "Google",
+            "Site": "Google",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Marque uma reunião com o cliente amanhã às 15h",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "com",
+                "o",
+                "às"
+            ],
+            "Funcao": "reunião",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Envie o relatório final para o diretor na segunda-feira",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "o",
+                "na"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "diretor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "segunda-feira"
+        }
+    },
+    {
+        "Frase": "Toque uma música relaxante no Spotify",
+        "Rótulos": {
+            "Comando": "Toque",
+            "Outro": [
+                "uma",
+                "no"
+            ],
+            "Funcao": "música",
+            "Entidade": "Spotify",
+            "Site": "Spotify",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie um e-mail para a equipe de suporte até amanhã",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "um",
+                "para",
+                "a",
+                "de"
+            ],
+            "Funcao": "e-mail",
+            "Entidade": "equipe de suporte",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Baixe o arquivo de imagens e envie para o cliente até o fim do dia",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de",
+                "e",
+                "para",
+                "o",
+                "até",
+                "o",
+                "do"
+            ],
+            "Funcao": "arquivo",
+            "Entidade": "cliente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "fim do dia"
+        }
+    },
+    {
+        "Frase": "Compartilhe o documento com a equipe de desenvolvimento",
+        "Rótulos": {
+            "Comando": "Compartilhe",
+            "Outro": [
+                "o",
+                "com",
+                "a",
+                "de"
+            ],
+            "Funcao": "documento",
+            "Entidade": "equipe de desenvolvimento",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Atualize o sistema e reinicie o servidor agora",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "e",
+                "o"
+            ],
+            "Funcao": "sistema",
+            "Entidade": "servidor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "agora"
+        }
+    },
+    {
+        "Frase": "Agende um compromisso com o advogado na próxima semana",
+        "Rótulos": {
+            "Comando": "Agende",
+            "Outro": [
+                "um",
+                "com",
+                "o",
+                "na"
+            ],
+            "Funcao": "compromisso",
+            "Entidade": "advogado",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "próxima semana"
+        }
+    },
+    {
+        "Frase": "Busque por receitas de bolo de chocolate no YouTube",
+        "Rótulos": {
+            "Comando": "Busque",
+            "Outro": [
+                "por",
+                "de",
+                "de",
+                "no"
+            ],
+            "Funcao": "receitas",
+            "Entidade": "bolo de chocolate",
+            "Site": "YouTube",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie a mensagem para o grupo do projeto até o final da tarde",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "para",
+                "o",
+                "do",
+                "até",
+                "o",
+                "da"
+            ],
+            "Funcao": "mensagem",
+            "Entidade": "grupo do projeto",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "final da tarde"
+        }
+    },
+    {
+        "Frase": "Pesquise as últimas notícias sobre tecnologia no navegador",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "as",
+                "sobre",
+                "no"
+            ],
+            "Funcao": "notícias",
+            "Entidade": "tecnologia",
+            "Site": null,
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie a planilha de vendas para o financeiro até o meio-dia",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "de",
+                "para",
+                "o",
+                "até",
+                "o"
+            ],
+            "Funcao": "planilha",
+            "Entidade": "financeiro",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "meio-dia"
+        }
+    },
+    {
+        "Frase": "Desligue o computador após terminar o backup",
+        "Rótulos": {
+            "Comando": "Desligue",
+            "Outro": [
+                "o",
+                "após",
+                "o"
+            ],
+            "Funcao": "computador",
+            "Entidade": "backup",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "após terminar"
+        }
+    },
+    {
+        "Frase": "Agende uma reunião com o fornecedor na próxima quarta-feira",
+        "Rótulos": {
+            "Comando": "Agende",
+            "Outro": [
+                "uma",
+                "com",
+                "o",
+                "na"
+            ],
+            "Funcao": "reunião",
+            "Entidade": "fornecedor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "próxima quarta-feira"
+        }
+    },
+    {
+        "Frase": "Baixe o aplicativo do banco no site oficial",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "do",
+                "no"
+            ],
+            "Funcao": "aplicativo",
+            "Entidade": "banco",
+            "Site": "site oficial",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie a apresentação para o professor antes da aula começar",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "a",
+                "para",
+                "o",
+                "antes",
+                "da"
+            ],
+            "Funcao": "apresentação",
+            "Entidade": "professor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "antes da aula começar"
+        }
+    },
+    {
+        "Frase": "Marque uma consulta com o dentista para o próximo mês",
+        "Rótulos": {
+            "Comando": "Marque",
+            "Outro": [
+                "uma",
+                "com",
+                "o",
+                "para",
+                "o"
+            ],
+            "Funcao": "consulta",
+            "Entidade": "dentista",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "próximo mês"
+        }
+    },
+    {
+        "Frase": "Atualize o relatório de status até o final da semana",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "o",
+                "de",
+                "até",
+                "o",
+                "da"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "status",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "final da semana"
+        }
+    },
+    {
+        "Frase": "Acesse o site da empresa e baixe o arquivo de políticas internas",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "da",
+                "e",
+                "o",
+                "de"
+            ],
+            "Funcao": "baixe",
+            "Entidade": "empresa",
+            "Site": "site da empresa",
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o relatório mensal para o supervisor ainda hoje",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "para",
+                "o",
+                "ainda"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "supervisor",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "hoje"
+        }
+    },
+    {
+        "Frase": "Atualize a planilha de despesas até o final do mês",
+        "Rótulos": {
+            "Comando": "Atualize",
+            "Outro": [
+                "a",
+                "de",
+                "até",
+                "o",
+                "do"
+            ],
+            "Funcao": "planilha",
+            "Entidade": "despesas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "final do mês"
+        }
+    },
+    {
+        "Frase": "Corrija os dados no sistema de cadastro agora",
+        "Rótulos": {
+            "Comando": "Corrija",
+            "Outro": [
+                "os",
+                "no",
+                "de"
+            ],
+            "Funcao": "dados",
+            "Entidade": "sistema de cadastro",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "agora"
+        }
+    },
+    {
+        "Frase": "Baixe o documento oficial e adicione na pasta de contratos",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "e",
+                "na",
+                "de"
+            ],
+            "Funcao": "documento",
+            "Entidade": "pasta de contratos",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Edite o arquivo de texto e salve na pasta de projetos",
+        "Rótulos": {
+            "Comando": "Edite",
+            "Outro": [
+                "o",
+                "de",
+                "e",
+                "na",
+                "de"
+            ],
+            "Funcao": "arquivo",
+            "Entidade": "pasta de projetos",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Analise o desempenho da equipe e gere um relatório até amanhã",
+        "Rótulos": {
+            "Comando": "Analise",
+            "Outro": [
+                "o",
+                "da",
+                "e",
+                "um",
+                "até"
+            ],
+            "Funcao": "desempenho",
+            "Entidade": "equipe",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Preencha o formulário de avaliação e envie para o gerente até sexta-feira",
+        "Rótulos": {
+            "Comando": "Preencha",
+            "Outro": [
+                "o",
+                "de",
+                "e",
+                "para",
+                "o",
+                "até"
+            ],
+            "Funcao": "formulário",
+            "Entidade": "gerente",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "sexta-feira"
+        }
+    },
+    {
+        "Frase": "Ajuste as configurações do sistema de backup agora",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "as",
+                "do"
+            ],
+            "Funcao": "configurações",
+            "Entidade": "sistema de backup",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "agora"
+        }
+    },
+    {
+        "Frase": "Reveja os contratos do setor jurídico e corrija qualquer erro",
+        "Rótulos": {
+            "Comando": "Reveja",
+            "Outro": [
+                "os",
+                "do",
+                "e"
+            ],
+            "Funcao": "contratos",
+            "Entidade": "setor jurídico",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acompanhe o status das entregas e me avise até amanhã",
+        "Rótulos": {
+            "Comando": "Acompanhe",
+            "Outro": [
+                "o",
+                "das",
+                "e",
+                "me"
+            ],
+            "Funcao": "status",
+            "Entidade": "entregas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Verifique o orçamento do projeto e faça os ajustes necessários",
+        "Rótulos": {
+            "Comando": "Verifique",
+            "Outro": [
+                "o",
+                "do",
+                "e",
+                "os"
+            ],
+            "Funcao": "orçamento",
+            "Entidade": "projeto",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Preencha a planilha de estoque com os dados atualizados",
+        "Rótulos": {
+            "Comando": "Preencha",
+            "Outro": [
+                "a",
+                "de",
+                "com",
+                "os"
+            ],
+            "Funcao": "planilha",
+            "Entidade": "estoque",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Envie o convite da reunião para todos os participantes",
+        "Rótulos": {
+            "Comando": "Envie",
+            "Outro": [
+                "o",
+                "da",
+                "para",
+                "os"
+            ],
+            "Funcao": "convite",
+            "Entidade": "participantes",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Edite o código do sistema e envie as alterações para revisão",
+        "Rótulos": {
+            "Comando": "Edite",
+            "Outro": [
+                "o",
+                "do",
+                "e",
+                "as",
+                "para"
+            ],
+            "Funcao": "código",
+            "Entidade": "sistema",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Revise a proposta de contrato antes da assinatura",
+        "Rótulos": {
+            "Comando": "Revise",
+            "Outro": [
+                "a",
+                "de",
+                "antes",
+                "da"
+            ],
+            "Funcao": "proposta",
+            "Entidade": "contrato",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "antes da assinatura"
+        }
+    },
+    {
+        "Frase": "Corrija os erros do relatório de desempenho até amanhã",
+        "Rótulos": {
+            "Comando": "Corrija",
+            "Outro": [
+                "os",
+                "do",
+                "de",
+                "até"
+            ],
+            "Funcao": "erros",
+            "Entidade": "relatório de desempenho",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "amanhã"
+        }
+    },
+    {
+        "Frase": "Verifique a lista de clientes e atualize os status de pagamento",
+        "Rótulos": {
+            "Comando": "Verifique",
+            "Outro": [
+                "a",
+                "de",
+                "e",
+                "os",
+                "de"
+            ],
+            "Funcao": "lista",
+            "Entidade": "clientes",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Ajuste as permissões de acesso ao sistema de dados",
+        "Rótulos": {
+            "Comando": "Ajuste",
+            "Outro": [
+                "as",
+                "de",
+                "ao"
+            ],
+            "Funcao": "permissões",
+            "Entidade": "sistema de dados",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Crie um relatório detalhado sobre as vendas do último trimestre",
+        "Rótulos": {
+            "Comando": "Crie",
+            "Outro": [
+                "um",
+                "sobre",
+                "as",
+                "do"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "vendas",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": "último trimestre"
+        }
+    },
+    {
+        "Frase": "Analise os feedbacks dos clientes e elabore uma resposta padrão",
+        "Rótulos": {
+            "Comando": "Analise",
+            "Outro": [
+                "os",
+                "dos",
+                "e"
+            ],
+            "Funcao": "feedbacks",
+            "Entidade": "clientes",
+            "Site": null,
+            "Navegador": null,
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e acesse o site da Amazon para verificar os preços",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o",
+                "da",
+                "para"
+            ],
+            "Funcao": "verificar",
+            "Entidade": "preços",
+            "Site": "Amazon",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise no YouTube por tutoriais de Python",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "por",
+                "de"
+            ],
+            "Funcao": "tutoriais",
+            "Entidade": "Python",
+            "Site": "YouTube",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e busque o endereço no Google Maps",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "o",
+                "no"
+            ],
+            "Funcao": "busque",
+            "Entidade": "endereço",
+            "Site": "Google Maps",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site do banco e pague a fatura",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "do",
+                "e"
+            ],
+            "Funcao": "pague",
+            "Entidade": "fatura",
+            "Site": "banco",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Baixe o relatório de desempenho no Google Drive",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "o",
+                "de",
+                "no"
+            ],
+            "Funcao": "relatório",
+            "Entidade": "desempenho",
+            "Site": "Google Drive",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise no Wikipedia sobre a história da ciência",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "no",
+                "sobre",
+                "a",
+                "da"
+            ],
+            "Funcao": "pesquisar",
+            "Entidade": "história da ciência",
+            "Site": "Wikipedia",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e assista a um vídeo no Vimeo",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "a",
+                "um",
+                "no"
+            ],
+            "Funcao": "assista",
+            "Entidade": "vídeo",
+            "Site": "Vimeo",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site da Netflix e assista à série",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "da",
+                "e",
+                "à"
+            ],
+            "Funcao": "assista",
+            "Entidade": "série",
+            "Site": "Netflix",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Baixe os arquivos do projeto no Dropbox",
+        "Rótulos": {
+            "Comando": "Baixe",
+            "Outro": [
+                "os",
+                "do",
+                "no"
+            ],
+            "Funcao": "arquivos",
+            "Entidade": "projeto",
+            "Site": "Dropbox",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e entre no site da Wikipédia para pesquisar sobre IA",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "no",
+                "da",
+                "para",
+                "sobre"
+            ],
+            "Funcao": "pesquisar",
+            "Entidade": "IA",
+            "Site": "Wikipédia",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e pesquise no Bing as últimas notícias sobre tecnologia",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "no",
+                "as",
+                "sobre"
+            ],
+            "Funcao": "pesquise",
+            "Entidade": "últimas notícias",
+            "Site": "Bing",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site do GitHub e baixe o código do repositório",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "do",
+                "e",
+                "o",
+                "do"
+            ],
+            "Funcao": "baixe",
+            "Entidade": "código",
+            "Site": "GitHub",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e faça login no LinkedIn",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "no"
+            ],
+            "Funcao": "faça login",
+            "Entidade": null,
+            "Site": "LinkedIn",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site do YouTube e assista ao último vídeo",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "do",
+                "e",
+                "ao"
+            ],
+            "Funcao": "assista",
+            "Entidade": "último vídeo",
+            "Site": "YouTube",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Pesquise por imagens de paisagens no Google Imagens",
+        "Rótulos": {
+            "Comando": "Pesquise",
+            "Outro": [
+                "por",
+                "de",
+                "no"
+            ],
+            "Funcao": "imagens",
+            "Entidade": "paisagens",
+            "Site": "Google Imagens",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e entre no site da Amazon para fazer uma compra",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "no",
+                "da",
+                "para"
+            ],
+            "Funcao": "fazer",
+            "Entidade": "compra",
+            "Site": "Amazon",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Entre no navegador e faça uma busca no Yahoo",
+        "Rótulos": {
+            "Comando": "Entre",
+            "Outro": [
+                "no",
+                "e",
+                "uma",
+                "no"
+            ],
+            "Funcao": "faça busca",
+            "Entidade": null,
+            "Site": "Yahoo",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o site do Spotify no navegador e ouça sua playlist favorita",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "do",
+                "no",
+                "e"
+            ],
+            "Funcao": "ouça",
+            "Entidade": "playlist favorita",
+            "Site": "Spotify",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Acesse o site da Udemy e busque por cursos de Python",
+        "Rótulos": {
+            "Comando": "Acesse",
+            "Outro": [
+                "o",
+                "da",
+                "e",
+                "por",
+                "de"
+            ],
+            "Funcao": "busque",
+            "Entidade": "cursos",
+            "Site": "Udemy",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    },
+    {
+        "Frase": "Abra o navegador e veja as últimas tendências no Twitter",
+        "Rótulos": {
+            "Comando": "Abra",
+            "Outro": [
+                "o",
+                "e",
+                "as",
+                "no"
+            ],
+            "Funcao": "veja",
+            "Entidade": "tendências",
+            "Site": "Twitter",
+            "Navegador": "navegador",
+            "Tempo": null
+        }
+    }
+]

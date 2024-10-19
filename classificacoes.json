@@ -1,0 +1,55 @@
+[
+    {
+        "Frase": "Abra o navegador Google Chrome e pesquise por receitas no site TudoGostoso para preparar amanhã, ajustando a temperatura do forno para 180 graus e verificando o status da entrega no site dos Correios.",
+        "Rótulos": {
+            "Comando": [
+                "abra"
+            ],
+            "Outro": [
+                "o",
+                "e",
+                "por",
+                "no",
+                "para",
+                "a",
+                "do",
+                "para",
+                "e",
+                "o",
+                "da",
+                "no",
+                "dos"
+            ],
+            "Funcao": [
+                "pesquise",
+                "tudogostoso",
+                "preparar",
+                "ajustando",
+                "verificando",
+                "status"
+            ],
+            "Entidade": [
+                "receitas",
+                "temperatura",
+                "forno",
+                "entrega",
+                "correios"
+            ],
+            "Valor": [
+                "180graus"
+            ],
+            "Tempo": [
+                "amanha"
+            ],
+            "Site": [
+                "site",
+                "site"
+            ],
+            "Navegador": [
+                "navegador",
+                "google",
+                "chrome"
+            ]
+        }
+    }
+]

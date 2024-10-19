@@ -1,0 +1,6 @@
+transformers==4.30.1
+torch-directml==0.2.5.dev240914
+tokenizers==0.13.3
+datasets==2.3.2
+numpy==1.24.0
+pandas==1.5.0
