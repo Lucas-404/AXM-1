@@ -35,7 +35,8 @@ Aqui está um exemplo de entrada de uma frase e sua respectiva saída de classif
 ### Classificação Esperada (Rótulos):
 
 ```json
-{
+[
+    {
     "Frase": "Abra o navegador Google Chrome e pesquise por receitas no site TudoGostoso para preparar amanhã, ajustando a temperatura do forno para 180 graus e verificando o status da entrega no site dos Correios.",
     "Rótulos": {
         "Comando": ["abra", "pesquise"],
@@ -46,8 +47,11 @@ Aqui está um exemplo de entrada de uma frase e sua respectiva saída de classif
         "Tempo": ["amanhã"],
         "Site": ["TudoGostoso", "Correios"],
         "Navegador": ["Google Chrome"]
+        }
     }
-}
+]
+```
+
 ## Resultados de Métricas e Acurácia Atual
 
 ### Principais Métricas:
@@ -101,6 +105,7 @@ Adicione as frases que você deseja classificar no arquivo **classificacoes.json
         "Navegador": ["navegador"]
     }
 }
+```
 
 ----------------------------------------------------
 
