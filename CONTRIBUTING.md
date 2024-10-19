@@ -1,7 +1,7 @@
-# Contributing to Axiom
+# Contribuindo para o Axiom
 
-Thank you for considering contributing to Axiom. However, this project is currently closed to external contributions. If you find a bug or want to suggest an improvement, please contact the owner directly.
+Agradecemos o seu interesse em contribuir para o Axiom. No entanto, este projeto está atualmente fechado para contribuições externas. Se você encontrar um bug ou quiser sugerir uma melhoria, por favor, entre em contato diretamente com o proprietário.
 
-All usage, distribution, and modification must be explicitly authorized by Lucas Puttini Mendonça.
+Todo uso, distribuição e modificação devem ser autorizados explicitamente por Lucas Puttini Mendonça.
 
-For inquiries, please contact: lputtini113@outlook.com
+Para dúvidas ou sugestões, entre em contato: lputtini113@outlook.com.
