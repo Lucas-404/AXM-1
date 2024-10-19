@@ -1,15 +1,7 @@
 # Changelog
 
-## [v0.0.1] - 18/10/2024
-### Added
-- Implementação inicial do modelo de classificação de frases.
-- Suporte para classes como `Comando`, `Entidade`, `Navegador`, etc.
-- Pipeline de inferência com métricas de precisão, recall e F1-Score.
-- 
-
-## [v1.1.0] - (Data futura)
-### Fixed
-- Correção no mapeamento de classes para `Navegador`.
-
-### Improved
-- Otimização no tempo de execução do pipeline de inferência.
+## [v0.01 (Alpha_phase 1/2)] - 18-10-2024
+- Implementação inicial da rede neural para classificação de frases.
+- Foco na correção de ruídos nas classificações, como o tratamento de palavras auxiliares incorretas.
+- Primeira fase de testes: avaliação de precisão e melhorias nas classes "Comando", "Entidade", "Outro".
+- Limitações: Classes como "Valor" e "Site" estão em fase de refinamento, precisando de mais exemplos no dataset incremental.
