@@ -89,17 +89,17 @@ Aqui está um exemplo de entrada de uma frase e sua respectiva saída de classif
 
 ## Como Usar
 
-Adicione as frases que você deseja classificar no arquivo **classificacoes.json**. O modelo processará essas frases e gerará uma saída contendo as classificações para cada palavra.
+Adicione as frases que você deseja classificar no arquivo **inferencia de cls.py**. O modelo processará essas frases e gerará uma saída contendo as classificações para cada palavra.
 
-### Exemplo de entrada de frase no arquivo **classificacoes.json**:
+### Exemplo de entrada de frase no arquivo **classificacoes.json**: (Lembre-se de que o modelo pode apresentar erros consideráveis nas classificações.)
 
 ```json
 {
     "Frase": "Abra o navegador e pesquise por notícias no Google.",
     "Rótulos": {
-        "Comando": ["abra", "pesquise"],
+        "Comando": ["abra"],
         "Outro": ["o", "e", "por", "no"],
-        "Função": [],
+        "Função": ["pesquise"],
         "Entidade": ["notícias"],
         "Site": ["google"],
         "Navegador": ["navegador"]
@@ -110,5 +110,6 @@ Adicione as frases que você deseja classificar no arquivo **classificacoes.json
 ----------------------------------------------------
 
 Status do Projeto
+
 Versão Atual: Axiom v0.01 (Alpha_phase 1/2)
 Esta versão está na fase inicial do projeto, e o foco é melhorar o treinamento do modelo e corrigir erros nas classificações de frases. O sistema ainda não está pronto para produção, e os resultados podem variar entre 30% a 100% de acurácia, dependendo da classe avaliada e da quantidade de dados disponíveis para treinamento.
