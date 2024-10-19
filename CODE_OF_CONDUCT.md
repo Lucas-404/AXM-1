@@ -1,4 +1,4 @@
-Código de Conduta
+# Código de Conduta
 
 O Axiom é um projeto de código fechado. Embora o código não esteja aberto para contribuições públicas, todas as interações dentro do repositório no GitHub devem ser respeitosas e profissionais.
 
