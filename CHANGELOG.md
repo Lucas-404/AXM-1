@@ -6,7 +6,7 @@
 - Primeira fase de testes: avaliação de precisão e melhorias nas classes "Comando", "Entidade", "Outro".
 - Limitações: Classes como "Valor" e "Site" estão em fase de refinamento, precisando de mais exemplos no dataset incremental.
 
-## [v0.01 (Alpha_phase 1/2)] - 2024-XX-XX
+## [v0.01 (Alpha_phase 1/2)] - 25/10/2024
 ### Added
 - Troca de arquitetura de BERT para RoBERTa-large
 - Ajuste no código de treinamento para lidar com mais classes dinâmicas
