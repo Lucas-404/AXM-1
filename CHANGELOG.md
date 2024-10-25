@@ -2,7 +2,7 @@
 
 Este changelog documenta as principais mudanças no projeto de criação de um modelo para classificação de frases com RoBERTa-large. O foco principal é melhorar a precisão em classes ambíguas e expandir a capacidade do modelo para lidar com novos rótulos. A seguir, estão listadas as mudanças, adições e correções em cada versão do projeto.
 
-### [v0.1.0] - 18-10-2024
+### v0.01 (Alpha_phase 1/2) - 18-10-2024
 #### Added
 - Implementação inicial da rede neural para classificação de frases.
 - Foco na correção de ruídos nas classificações, como o tratamento de palavras auxiliares incorretas.
@@ -13,7 +13,7 @@ Este changelog documenta as principais mudanças no projeto de criação de um m
 
 ---
 
-### [v0.1.1] - 25-10-2024
+### v0.02 (Alpha_phase 1/2) - 25-10-2024
 #### Added
 - **Troca de arquitetura**: Mudança de BERT para RoBERTa-large, resultando em melhor estabilidade e desempenho em classificações mais complexas.
 - **Ajuste no código de treinamento**: Suporte adicionado para lidar com mais classes dinâmicas, permitindo maior flexibilidade do modelo em relação a novos rótulos.
