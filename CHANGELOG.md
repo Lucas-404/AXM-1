@@ -27,3 +27,18 @@ Este changelog documenta as principais mudanças no projeto de criação de um m
 - **Classes "Valor" e "Site"**: Precisam de mais exemplos no dataset incremental para melhorar a performance.
 
 
+## v0.02 (Alpha Phase 1/2) - 27-10-2024
+
+### **Added**
+- Mais rótulos foram adicionados ao dataset para melhorar a precisão em frases maiores e mais complexas, permitindo ao modelo lidar com mais variações.
+- Implementação de categorias dinâmicas de rótulos para classificar palavras com maior flexibilidade, conforme a natureza das frases mais longas.
+- Expansão do dataset com exemplos mais diversos para cobrir casos específicos de comandos mistos e frases descritivas.
+
+### **Fixed**
+- Correção de inconsistências no treinamento em frases curtas, com melhorias na classificação de palavras em rótulos como "Comando" e "Entidade".
+- Ajustes na segmentação de frases para melhorar a correspondência entre palavras e seus rótulos em frases longas, garantindo uma melhor precisão nas previsões.
+
+### **Known Issues**
+- **Falta de rótulos suficientes para frases complexas**: O modelo enfrenta dificuldades ao classificar frases mais longas, especialmente quando comandos, entidades e referências temporais coexistem. Novos rótulos estão sendo considerados para resolver essa questão.
+- **Ambiguidade entre categorias**: Algumas palavras são classificadas de forma ambígua entre rótulos como "Comando", "Função" e "Outro". Isso ocorre especialmente em frases onde o comando pode ser interpretado de diferentes formas.
+- **Problemas de escalabilidade com mais rótulos**: Com a adição de novos rótulos, a escalabilidade do dataset se tornou um problema. Frases longas geram muitas classificações, tornando o processo de rotulação e treinamento mais complexo.
