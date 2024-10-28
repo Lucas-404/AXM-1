@@ -66,8 +66,3 @@ A abordagem modular e incremental permitirá gerenciar essa escalabilidade e con
 
 ---
 
-**Próximos passos**:
-1. Revisar os rótulos essenciais e modularizar as categorias.
-2. Implementar fases de treinamento incremental.
-3. Controlar a complexidade do dataset com revisões periódicas e validações automáticas.
-
