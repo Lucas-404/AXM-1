@@ -13,7 +13,7 @@ Este changelog documenta as principais mudanças no projeto de criação de um m
 
 ---
 
-### v0.02 (Alpha_phase 1/2) - 25-10-2024
+### v0.01 (Alpha_phase 1/2) - 25-10-2024
 #### Added
 - **Troca de arquitetura**: Mudança de BERT para RoBERTa-large, resultando em melhor estabilidade e desempenho em classificações mais complexas.
 - **Ajuste no código de treinamento**: Suporte adicionado para lidar com mais classes dinâmicas, permitindo maior flexibilidade do modelo em relação a novos rótulos.
@@ -27,7 +27,7 @@ Este changelog documenta as principais mudanças no projeto de criação de um m
 - **Classes "Valor" e "Site"**: Precisam de mais exemplos no dataset incremental para melhorar a performance.
 
 
-## v0.02 (Alpha Phase 1/2) - 27-10-2024
+## v0.01 (Alpha Phase 1/2) - 27-10-2024
 
 ### **Added**
 - Mais rótulos foram adicionados ao dataset para melhorar a precisão em frases maiores e mais complexas, permitindo ao modelo lidar com mais variações.
