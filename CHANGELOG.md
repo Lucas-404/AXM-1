@@ -26,6 +26,7 @@ Este changelog documenta as principais mudanças no projeto de criação de um m
 - **Ambiguidades remanescentes**: Ainda existem casos ambíguos entre "Comando" e "Função" que podem necessitar de refinamentos adicionais no dataset.
 - **Classes "Valor" e "Site"**: Precisam de mais exemplos no dataset incremental para melhorar a performance.
 
+---
 
 ## v0.01 (Alpha Phase 1/2) - 27-10-2024
 
