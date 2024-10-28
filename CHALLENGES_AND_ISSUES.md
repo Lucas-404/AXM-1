@@ -58,11 +58,36 @@ Estão causando problemas de ambiguidade e dificuldade na classificação corret
 - Conforme os dados escalarem, será importante realizar **revisões periódicas** do dataset para garantir que os rótulos não estão se tornando redundantes ou desnecessariamente complicados.
 - O uso de scripts automáticos para validar a consistência dos rótulos e a detecção de sobreposições entre rótulos ajudará a manter a estrutura clara e eficaz.
 
-## Conclusão
-
-Estamos passando para um novo patamar na complexidade de classificação das frases, e isso traz desafios que não eram esperados inicialmente. Embora seja positivo adicionar mais rótulos para melhorar a precisão, devemos evitar o crescimento descontrolado e garantir que o modelo ainda funcione de maneira eficaz para o propósito inicial: classificar comandos curtos e diretos.
-
-A abordagem modular e incremental permitirá gerenciar essa escalabilidade e controlar a ambiguidade, enquanto continuamos a expandir o modelo de maneira planejada e controlada.
-
 ---
+
+# Problemas Identificados no Modelo de Classificação
+
+## Confusão do Modelo com Muitos Exemplos de Classificação
+
+Um problema importante identificado é que o modelo começa a se confundir à medida que mais exemplos de classificação são adicionados. Embora o modelo tenha um bom desempenho com frases simples e comandos claros, ele enfrenta dificuldades ao lidar com uma maior diversidade de frases, especialmente quando comandos aparecem em diferentes posições ou quando existem múltiplas funções na frase.
+
+### Comportamento do Modelo
+
+1. **Comandos em Posições Variadas**:
+   - O modelo foi treinado majoritariamente com comandos no início das frases. Quando comandos aparecem no meio ou no final, o modelo tem dificuldade em identificá-los corretamente, frequentemente rotulando palavras temporais ou sequenciais como comandos, o que resulta em erros.
+   
+2. **Confusão entre "Comando", "Função" e "Entidade"**:
+   - Há uma clara confusão entre os rótulos de **Comando**, **Função** e **Entidade**. Em frases complexas, o modelo classifica verbos que deveriam ser comandos como "Função" ou "Entidade", confundindo as ações reais com descrições ou entidades.
+
+3. **Palavras Temporais Classificadas Incorretamente**:
+   - Palavras que indicam tempo, como "Antes", "Depois" e "Após", estão sendo incorretamente classificadas como "Comando", quando deveriam estar em um rótulo mais adequado, como "Tempo" ou "Outro". Isso afeta negativamente a precisão da classificação.
+
+4. **Baixa Qualidade de Dados**:
+   - Outro ponto importante é que o dataset usado no treinamento parece carecer de diversidade e exemplos robustos. Com um número limitado de exemplos que capturam diferentes estruturas de frases, o modelo acaba generalizando mal e cometendo erros em frases mais complexas.
+
+### Principais Causas Identificadas
+
+- **Desbalanceamento no Dataset**: O modelo foi treinado com uma quantidade maior de frases simples, onde os comandos estão no início da frase. Isso faz com que ele tenha dificuldades em lidar com comandos que aparecem em outras partes da frase.
+  
+- **Insuficiência de Exemplos de Funções e Entidades**: O modelo tem poucos exemplos que capturam corretamente a distinção entre funções, entidades e comandos, o que resulta em confusão entre esses rótulos em frases mais longas.
+
+- **Problemas na Generalização**: À medida que mais dados são introduzidos, o modelo não consegue generalizar adequadamente, levando a uma maior taxa de erro quando é confrontado com frases que possuem múltiplas ações ou complexidades contextuais.
+
+Esses problemas de classificação precisam ser corrigidos para que o modelo possa melhorar seu desempenho, especialmente ao lidar com frases complexas e comandos em posições não convencionais.
+
 
