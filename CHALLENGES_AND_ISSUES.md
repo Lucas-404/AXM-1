@@ -64,30 +64,28 @@ Estão causando problemas de ambiguidade e dificuldade na classificação corret
 
 ## Confusão do Modelo com Muitos Exemplos de Classificação
 
-Um problema importante identificado é que o modelo começa a se confundir à medida que mais exemplos de classificação são adicionados. Embora o modelo tenha um bom desempenho com frases simples e comandos claros, ele enfrenta dificuldades ao lidar com uma maior diversidade de frases, especialmente quando comandos aparecem em diferentes posições ou quando existem múltiplas funções na frase.
+Um dos problemas principais identificados no modelo é a sua incapacidade de lidar com uma grande quantidade de dados durante a inferência. Quando o modelo recebe muitas frases ou exemplos de classificação de uma só vez, ele apresenta dificuldades em classificar corretamente. No entanto, quando apenas uma frase é processada de cada vez, o modelo consegue realizar a classificação de forma correta e precisa.
 
 ### Comportamento do Modelo
 
-1. **Comandos em Posições Variadas**:
-   - O modelo foi treinado majoritariamente com comandos no início das frases. Quando comandos aparecem no meio ou no final, o modelo tem dificuldade em identificá-los corretamente, frequentemente rotulando palavras temporais ou sequenciais como comandos, o que resulta em erros.
-   
-2. **Confusão entre "Comando", "Função" e "Entidade"**:
-   - Há uma clara confusão entre os rótulos de **Comando**, **Função** e **Entidade**. Em frases complexas, o modelo classifica verbos que deveriam ser comandos como "Função" ou "Entidade", confundindo as ações reais com descrições ou entidades.
+1. **Desempenho Corretamente com Uma Frase**:
+   - Quando o modelo é alimentado com apenas uma frase para inferência, ele geralmente consegue classificar corretamente, identificando comandos, funções e entidades de maneira precisa. Isso indica que o modelo é capaz de realizar a tarefa com sucesso quando a quantidade de dados é limitada.
 
-3. **Palavras Temporais Classificadas Incorretamente**:
-   - Palavras que indicam tempo, como "Antes", "Depois" e "Após", estão sendo incorretamente classificadas como "Comando", quando deveriam estar em um rótulo mais adequado, como "Tempo" ou "Outro". Isso afeta negativamente a precisão da classificação.
+2. **Desempenho Degrada com Muitas Frases**:
+   - Ao processar uma grande quantidade de frases, o modelo se confunde e a taxa de erros aumenta significativamente. Ele começa a fazer classificações incorretas, como identificar palavras temporais como comandos ou confundir funções com entidades. Isso sugere uma limitação no processamento em massa, que impacta diretamente a precisão da inferência.
 
-4. **Baixa Qualidade de Dados**:
-   - Outro ponto importante é que o dataset usado no treinamento parece carecer de diversidade e exemplos robustos. Com um número limitado de exemplos que capturam diferentes estruturas de frases, o modelo acaba generalizando mal e cometendo erros em frases mais complexas.
+3. **Erros em Frases Complexas**:
+   - O modelo também parece ter dificuldades ao lidar com frases mais complexas quando são processadas em grande volume. Em frases onde existem múltiplas ações ou comandos em posições não convencionais (no meio ou no final da frase), o modelo apresenta um aumento no número de erros.
 
 ### Principais Causas Identificadas
 
-- **Desbalanceamento no Dataset**: O modelo foi treinado com uma quantidade maior de frases simples, onde os comandos estão no início da frase. Isso faz com que ele tenha dificuldades em lidar com comandos que aparecem em outras partes da frase.
-  
-- **Insuficiência de Exemplos de Funções e Entidades**: O modelo tem poucos exemplos que capturam corretamente a distinção entre funções, entidades e comandos, o que resulta em confusão entre esses rótulos em frases mais longas.
+- **Sobrecarga de Inferência**: O modelo parece não estar otimizado para lidar com muitos dados ao mesmo tempo, levando a uma degradação de desempenho quando processa várias frases em paralelo.
 
-- **Problemas na Generalização**: À medida que mais dados são introduzidos, o modelo não consegue generalizar adequadamente, levando a uma maior taxa de erro quando é confrontado com frases que possuem múltiplas ações ou complexidades contextuais.
+- **Falta de Generalização**: A capacidade do modelo de generalizar corretamente parece limitada quando confrontado com uma grande quantidade de exemplos, resultando em confusões frequentes entre diferentes rótulos.
 
-Esses problemas de classificação precisam ser corrigidos para que o modelo possa melhorar seu desempenho, especialmente ao lidar com frases complexas e comandos em posições não convencionais.
+- **Quantidade de Dados no Treinamento**: A quantidade e a qualidade dos dados usados no treinamento podem não ter sido suficientes para preparar o modelo para cenários em que há uma grande diversidade de frases, especialmente quando são introduzidas muitas frases ao mesmo tempo.
+
+O comportamento inconsistente do modelo com grandes volumes de dados deve ser investigado mais a fundo para identificar a origem do problema e melhorar sua capacidade de lidar com inferências em massa.
+
 
 
