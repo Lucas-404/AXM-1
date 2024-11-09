@@ -1,135 +1,205 @@
+import re
 import json
+import torch
+from transformers import RobertaTokenizerFast, RobertaForTokenClassification
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-import unicodedata
-import string
-from difflib import SequenceMatcher
+import numpy as np
 
-# Caminhos dos arquivos
-caminho_dataset_incremental = 'E:\\Classificao\\dataset_incremental.json'
-caminho_classificacoes = 'E:\\Classificao\\classificacoes.json'
+# Verificar se CUDA está disponível
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# Mapeamento dos rótulos
+# Dicionário de mapeamento dinâmico para os rótulos
 rotulo_map = {
     "Comando": 0,
     "Entidade": 1,
     "Outro": 2,
     "Funcao": 3,
     "Tempo": 4,
-    "Site": 5,
+    "Site": 5,    
     "Navegador": 6,
     "Valor": 7,
-    "Nenhum": 8
+    "Qualidade": 8,
+    "Estado": 9,
+    "Nome": 10
 }
 
-# Funções de normalização
-def remover_acentos(texto):
-    return ''.join(
-        c for c in unicodedata.normalize('NFD', texto)
-        if unicodedata.category(c) != 'Mn'
-    )
-
-def normalizar_frase(frase):
-    frase = frase.lower().strip()
-    frase = remover_acentos(frase)
-    frase = frase.translate(str.maketrans('', '', string.punctuation))
+# Função para identificar valores monetários e percentuais
+def tratar_valores(frase):
+    frase = re.sub(r'(\bR\$|\bUS\$|\€)(\d+)', r'\1\2', frase)  # Exemplo: "R$150"
+    frase = re.sub(r'(\d+)(%)', r'\1\2', frase)  # Exemplo: "50%"
     return frase
 
-# Carregar os dados
-with open(caminho_dataset_incremental, 'r', encoding='utf-8') as f:
-    dataset_incremental = json.load(f)
+# Função para processar o JSON com rótulos dinâmicos (multi-label)
+def carregar_dataset_json(caminho_json):
+    try:
+        with open(caminho_json, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"Erro: O arquivo {caminho_json} não foi encontrado.")
+        exit()
+    except json.JSONDecodeError:
+        print(f"Erro: O arquivo {caminho_json} não é um JSON válido.")
+        exit()
 
-with open(caminho_classificacoes, 'r', encoding='utf-8') as f:
-    classificacoes = json.load(f)
-
-# Criar mapeamento de frases normalizadas para itens
-def criar_mapeamento(data):
-    if isinstance(data, dict):  # Para aceitar apenas uma frase
-        data = [data]
-    mapping = {}
+    frases_split = []
+    labels = []
     for item in data:
-        frase_norm = normalizar_frase(item['Frase'])
-        mapping[frase_norm] = item
-    return mapping
+        frase = tratar_valores(item['Frase'])
+        frase = frase.split()
+        rotulos = item['Rótulos']
 
-dataset_mapping = criar_mapeamento(dataset_incremental)
+        frase_labels = []
+        for palavra in frase:
+            multi_label = [0] * len(rotulo_map)  # Vetor para multi-rótulo
+            for rotulo, valor in rotulos.items():
+                if valor is None:
+                    continue
+                if isinstance(valor, str) and palavra.lower() in valor.lower():
+                    if rotulo in rotulo_map:
+                        multi_label[rotulo_map[rotulo]] = 1
+                elif isinstance(valor, list) and palavra.lower() in [w.lower() for w in valor]:
+                    if rotulo in rotulo_map:
+                        multi_label[rotulo_map[rotulo]] = 1
+            frase_labels.append(multi_label if any(multi_label) else [-100] * len(rotulo_map))
 
-# Função para encontrar a melhor correspondência de frase
-def encontrar_melhor_correspondencia(frase_norm, mapping, threshold=0.8):
-    melhor_correspondencia = None
-    maior_similaridade = 0
-    for frase_dataset_norm in mapping.keys():
-        similaridade = SequenceMatcher(None, frase_norm, frase_dataset_norm).ratio()
-        if similaridade > maior_similaridade:
-            maior_similaridade = similaridade
-            melhor_correspondencia = frase_dataset_norm
-    if maior_similaridade >= threshold:
-        return melhor_correspondencia
-    else:
-        return None
+        frases_split.append(frase)
+        labels.append(frase_labels)
 
-# Função para atribuir rótulos considerando expressões de múltiplas palavras
-def atribuir_rotulos(frase, rótulos_item):
-    frase_normalizada = normalizar_frase(frase)
-    tokens_frase = frase_normalizada.split()
-    labels = [rotulo_map["Nenhum"]] * len(tokens_frase)
+    return frases_split, labels
 
-    for classe, palavras_classe in rótulos_item['Rótulos'].items():
-        if palavras_classe:
-            if isinstance(palavras_classe, str):
-                palavras_classe = [palavras_classe]
-            for expressao in palavras_classe:
-                expressao_normalizada = normalizar_frase(expressao)
-                tokens_expressao = expressao_normalizada.split()
+# Classe do Dataset customizado
+class TokenClassificationDataset(torch.utils.data.Dataset):
+    def __init__(self, encodings, labels):
+        self.encodings = encodings
+        self.labels = labels
 
-                # Procurar a expressão na frase
-                for i in range(len(tokens_frase) - len(tokens_expressao) + 1):
-                    if tokens_frase[i:i+len(tokens_expressao)] == tokens_expressao:
-                        for idx in range(i, i+len(tokens_expressao)):
-                            labels[idx] = rotulo_map[classe]
-    return labels
+    def __getitem__(self, idx):
+        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+        item['labels'] = torch.tensor(self.labels[idx], dtype=torch.float)
+        return item
 
-# Extrair rótulos e predições
-rotulos_reais = []
-rotulos_preditos = []
-frases_palavras = []
+    def __len__(self):
+        return len(self.labels)
 
-# Se classificacoes for um dict, transformá-lo em uma lista com um único item
-if isinstance(classificacoes, dict):
-    classificacoes = [classificacoes]
+# Função para alinhar os labels com os tokens
+def align_labels_with_tokens(labels, encodings):
+    aligned_labels = []
+    for i in range(len(encodings['input_ids'])):
+        word_ids = encodings.word_ids(batch_index=i)
+        label = labels[i]
+        previous_word_idx = None
+        label_ids = []
+        for word_idx in word_ids:
+            if word_idx is None:
+                label_ids.append([-100]*len(rotulo_map))
+            elif word_idx != previous_word_idx:
+                label_ids.append(label[word_idx])
+            else:
+                label_ids.append([-100]*len(rotulo_map))
+            previous_word_idx = word_idx
+        aligned_labels.append(label_ids)
+    return aligned_labels
 
-for item_classif in classificacoes:
-    frase_classif = item_classif['Frase']
-    frase_classif_norm = normalizar_frase(frase_classif)
-    melhor_correspondencia_norm = encontrar_melhor_correspondencia(frase_classif_norm, dataset_mapping)
-    
-    if not melhor_correspondencia_norm:
-        print(f"Não foi encontrada correspondência para a frase: {frase_classif}")
-        continue
-    
-    item_rotulo = dataset_mapping[melhor_correspondencia_norm]
-    
-    # Exibir as frases correspondentes para verificação
-    print(f"\nFrase de classificação: {frase_classif}")
-    print(f"Frase correspondente no dataset: {item_rotulo['Frase']}")
-    
-    palavras = frase_classif.split()
-    frases_palavras.append(palavras)
-    
-    # Atribuir rótulos reais e preditos considerando expressões de múltiplas palavras
-    labels_reais = atribuir_rotulos(frase_classif, item_rotulo)
-    labels_preditos = atribuir_rotulos(frase_classif, item_classif)
-    
-    rotulos_reais.extend(labels_reais)
-    rotulos_preditos.extend(labels_preditos)
+# Caminho do arquivo de dados de treinamento
+caminho_treino = 'dataset_incremental.json'
 
-# Avaliar as métricas
-labels = list(rotulo_map.values())
-relatorio_ajustado = classification_report(
-    rotulos_reais,
-    rotulos_preditos,
-    labels=labels,
-    target_names=list(rotulo_map.keys()),
-    zero_division=0
-)
+# Carregar os dados de treinamento
+frases_split, labels = carregar_dataset_json(caminho_treino)
 
-print(relatorio_ajustado)
+# Verificar se o dataset foi carregado corretamente
+if not frases_split or not labels:
+    print("Erro: O dataset não foi carregado corretamente ou está vazio.")
+    exit()
+
+# Dividir os dados em treinamento e teste
+try:
+    train_frases_split, test_frases_split, train_labels, test_labels = train_test_split(
+        frases_split, labels, test_size=0.2, random_state=42
+    )
+except ValueError as e:
+    print(f"Erro ao dividir os dados: {e}")
+    exit()
+
+# Inicializar o tokenizer
+try:
+    tokenizer = RobertaTokenizerFast.from_pretrained('roberta-large', add_prefix_space=True)
+except Exception as e:
+    print(f"Erro ao carregar o tokenizer: {e}")
+    exit()
+
+# Preparar os dados de treinamento e teste
+try:
+    train_encodings = tokenizer(train_frases_split, is_split_into_words=True, return_offsets_mapping=True, padding=True, truncation=True)
+    train_labels_aligned = align_labels_with_tokens(train_labels, train_encodings)
+    train_encodings.pop("offset_mapping")
+    train_dataset = TokenClassificationDataset(train_encodings, train_labels_aligned)
+
+    test_encodings = tokenizer(test_frases_split, is_split_into_words=True, return_offsets_mapping=True, padding=True, truncation=True)
+    test_labels_aligned = align_labels_with_tokens(test_labels, test_encodings)
+    test_encodings.pop("offset_mapping")
+    test_dataset = TokenClassificationDataset(test_encodings, test_labels_aligned)
+except Exception as e:
+    print(f"Erro ao preparar os dados: {e}")
+    exit()
+
+# Carregar o modelo salvo
+try:
+    model_path = 'results'
+    model = RobertaForTokenClassification.from_pretrained(model_path)
+    model.to(device)
+except FileNotFoundError:
+    print(f"Erro: O modelo salvo em {model_path} não foi encontrado.")
+    exit()
+except Exception as e:
+    print(f"Erro ao carregar o modelo: {e}")
+    exit()
+
+# Função para converter previsões em rótulos binários
+def obter_predicoes(model, dataset):
+    model.eval()
+    all_preds = []
+    all_labels = []
+
+    for i in range(len(dataset)):
+        batch = dataset[i]
+        inputs = {key: val.unsqueeze(0).to(device) for key, val in batch.items() if key != 'labels'}
+        with torch.no_grad():
+            outputs = model(**inputs)
+            logits = outputs.logits
+
+        # Converta logits em previsões binárias
+        preds = torch.sigmoid(logits).cpu().numpy()
+        preds = (preds > 0.5).astype(int)  # Limite de 0.5 para binário
+
+        # Coletar os rótulos e aplicar a máscara para tokens válidos (não -100)
+        labels = batch['labels'].cpu().numpy()
+        mask = np.any(labels != -100, axis=1)
+
+        valid_preds = preds.reshape(-1, preds.shape[-1])[mask]
+        valid_labels = labels.reshape(-1, labels.shape[-1])[mask]
+
+        all_preds.extend(valid_preds)
+        all_labels.extend(valid_labels)
+
+    return np.array(all_preds), np.array(all_labels)
+
+# Obter previsões e rótulos do conjunto de teste
+try:
+    predicoes, rótulos_reais = obter_predicoes(model, test_dataset)
+except Exception as e:
+    print(f"Erro durante a inferência: {e}")
+    exit()
+
+# Verificar se o tamanho das previsões e dos rótulos está correto
+if len(predicoes) != len(rótulos_reais):
+    print("Erro: As previsões e os rótulos reais não têm o mesmo comprimento após a filtragem.")
+    exit()
+
+# Calcular métricas de desempenho
+try:
+    report = classification_report(rótulos_reais, predicoes, target_names=list(rotulo_map.keys()), zero_division=0)
+    print(report)
+except Exception as e:
+    print(f"Erro ao calcular o relatório de classificação: {e}")
+    exit()
